@@ -1,6 +1,0 @@
-setup.py
-transportation_hub/__init__.py
-transportation_hub.egg-info/PKG-INFO
-transportation_hub.egg-info/SOURCES.txt
-transportation_hub.egg-info/dependency_links.txt
-transportation_hub.egg-info/top_level.txt

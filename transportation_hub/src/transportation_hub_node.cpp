@@ -3,9 +3,9 @@
 //
 #include "rclcpp/rclcpp.hpp"
 
-#include "/home/sfx233/rm1/build/interfaces/rosidl_generator_cpp/interfaces/msg/overall_info.hpp"
-#include "/home/sfx233/rm1/build/interfaces/rosidl_generator_cpp/interfaces/msg/road_info.hpp"
-#include "/home/sfx233/rm1/build/interfaces/rosidl_generator_cpp/interfaces/srv/judge.hpp"
+#include "judger_interfaces/msg/overall_info.hpp"
+#include "judger_interfaces/msg/road_info.hpp"
+#include "judger_interfaces/srv/my_service.hpp"
 
 #include <vector>
 #include <queue>
@@ -16,20 +16,20 @@ using namespace std::chrono_literals;
 class TransportationHubNode : public rclcpp::Node {
 public:
     TransportationHubNode() : Node("transportation_hub_node") {
-        subscription_ = this->create_subscription<interfaces::msg::OverallInfo>(
+        subscription_ = this->create_subscription<judger_interfaces::msg::OverallInfo>(
             "question", 10, std::bind(&TransportationHubNode::topic_callback, this, std::placeholders::_1));
-        client_ = this->create_client<interfaces::srv::Judge>("judger_server");
+            client_ = this->create_client<judger_interfaces::srv::MyService>("judger_server");
     }
 
 private:
-    void topic_callback(const interfaces::msg::OverallInfo::SharedPtr msg) {
+    void topic_callback(const judger_interfaces::msg::OverallInfo::SharedPtr msg) {
         int num_cities = msg->number_of_cities;
         int src = msg->src_city;
         int des = msg->des_city;
 
         // 构建邻接表（有向图）
         std::vector<std::vector<std::pair<int, int>>> adj(num_cities);
-        for (const auto &road : msg->road_info) {
+        for (const auto &road : msg->infos) {
             int u = road.source;
             int v = road.destination;
             int len = road.length;
@@ -73,8 +73,8 @@ private:
         std::reverse(path.begin(), path.end());
 
         // 发送服务请求
-        auto request = std::make_shared<interfaces::srv::Judge::Request>();
-        request->path = path;
+        auto request = std::make_shared<judger_interfaces::srv::MyService::Request>();
+        request->answer.my_answer = path;
 
         auto result_future = client_->async_send_request(request);
         if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), result_future) !=
@@ -85,8 +85,8 @@ private:
         RCLCPP_INFO(this->get_logger(), "Path sent successfully");
     }
 
-    rclcpp::Subscription<interfaces::msg::OverallInfo>::SharedPtr subscription_;
-    rclcpp::Client<interfaces::srv::Judge>::SharedPtr client_;
+    rclcpp::Subscription<judger_interfaces::msg::OverallInfo>::SharedPtr subscription_;
+    rclcpp::Client<judger_interfaces::srv::MyService>::SharedPtr client_;
 };
 
 int main(int argc, char **argv) {

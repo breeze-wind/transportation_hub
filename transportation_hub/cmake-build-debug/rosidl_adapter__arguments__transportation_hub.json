@@ -1,8 +1,0 @@
-{
-  "package_name": "transportation_hub",
-  "non_idl_tuples": [
-    "/home/sfx233/rm1/src/transportation_hub:msg/RoadInfo.msg",
-    "/home/sfx233/rm1/src/transportation_hub:msg/OverallInfo.msg",
-    "/home/sfx233/rm1/src/transportation_hub:srv/Judge.srv"
-  ]
-}

@@ -12,8 +12,8 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   
-   <build_depend>interfaces</build_depend>
-    <exec_depend>interfaces</exec_depend>
+   <build_depend>judger_interfaces</build_depend>
+    <exec_depend>judger_interfaces</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

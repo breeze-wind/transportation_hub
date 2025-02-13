@@ -1,8 +1,0 @@
-msg/OverallInfo.idl
-msg/OverallInfo.msg
-msg/RoadInfo.idl
-msg/RoadInfo.msg
-srv/Judge.idl
-srv/Judge.srv
-srv/Judge_Request.msg
-srv/Judge_Response.msg
