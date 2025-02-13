@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/sfx233/rm1/src/interfaces:msg/RoadInfo.msg",
+    "/home/sfx233/rm1/src/interfaces:msg/OverallInfo.msg",
+    "/home/sfx233/rm1/src/interfaces:srv/Judge.srv"
+  ]
+}

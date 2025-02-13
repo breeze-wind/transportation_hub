@@ -1,0 +1,73 @@
+[0.007s] Invoking command in '/home/sfx233/rm1/src/transportation_hub/build/transportation_hub': /usr/bin/cmake /home/sfx233/rm1/src/transportation_hub -DCMAKE_INSTALL_PREFIX=/home/sfx233/rm1/src/transportation_hub/install/transportation_hub
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.467s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.525s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.557s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.560s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.606s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.607s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.712s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.746s] -- Looking for pthread.h
+[0.819s] -- Looking for pthread.h - found
+[0.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.904s] -- Found Threads: TRUE  
+[0.938s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.971s] Error parsing '/home/sfx233/rm1/src/transportation_hub/package.xml':
+[1.000s] Traceback (most recent call last):
+[1.000s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.000s]     root = dom.parseString(data)
+[1.000s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.000s]     return expatbuilder.parseString(string)
+[1.000s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.000s]     return builder.parseString(string)
+[1.000s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.000s]     parser.Parse(string, True)
+[1.000s] xml.parsers.expat.ExpatError: junk after document element: line 22, column 0
+[1.000s] 
+[1.001s] During handling of the above exception, another exception occurred:
+[1.001s] 
+[1.001s] Traceback (most recent call last):
+[1.001s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.001s]     main()
+[1.001s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.001s]     raise e
+[1.001s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.001s]     package = parse_package_string(
+[1.001s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.001s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.001s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sfx233/rm1/src/transportation_hub/package.xml':
+[1.001s] The manifest contains invalid XML:
+[1.001s] junk after document element: line 22, column 0
+[1.008s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.008s]   execute_process(/usr/bin/python3
+[1.008s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.008s]   /home/sfx233/rm1/src/transportation_hub/package.xml
+[1.009s]   /home/sfx233/rm1/src/transportation_hub/build/transportation_hub/ament_cmake_core/package.cmake)
+[1.009s]   returned error code 1
+[1.009s] Call Stack (most recent call first):
+[1.009s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.009s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.009s]   CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)
+[1.009s] 
+[1.009s] [0m
+[1.009s] -- Configuring incomplete, errors occurred!
+[1.009s] See also "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/CMakeFiles/CMakeOutput.log".
+[1.015s] Invoked command in '/home/sfx233/rm1/src/transportation_hub/build/transportation_hub' returned '1': /usr/bin/cmake /home/sfx233/rm1/src/transportation_hub -DCMAKE_INSTALL_PREFIX=/home/sfx233/rm1/src/transportation_hub/install/transportation_hub

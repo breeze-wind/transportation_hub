@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/transportation_hub_node" "TARGETS" "transportation_hub_node" "DESTINATION" "lib/transportation_hub")

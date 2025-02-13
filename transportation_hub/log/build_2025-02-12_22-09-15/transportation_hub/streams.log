@@ -1,0 +1,58 @@
+[0.007s] Invoking command in '/home/sfx233/rm1/src/transportation_hub/build/transportation_hub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sfx233/rm1/src/transportation_hub/build/transportation_hub -- -j24 -l24
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target transportation_hub__rosidl_generator_c[0m
+[0.055s] [  2%] Built target transportation_hub__cpp
+[0.058s] [  4%] [32mBuilding CXX object CMakeFiles/transportation_hub_node.dir/src/transportation_hub_node.cpp.o[0m
+[0.061s] [ 14%] Built target transportation_hub__rosidl_generator_c
+[0.063s] [ 14%] Built target ament_cmake_python_symlink_transportation_hub
+[0.065s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.068s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.068s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.073s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.073s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.074s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.203s] [01m[K/home/sfx233/rm1/src/transportation_hub/src/transportation_hub_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktransportation_hub/msg/overall_info.hpp: 没有那个文件或目录
+[0.203s]     5 | #include [01;31m[K"transportation_hub/msg/overall_info.hpp"[m[K
+[0.203s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.203s] compilation terminated.
+[0.204s] gmake[2]: *** [CMakeFiles/transportation_hub_node.dir/build.make:76：CMakeFiles/transportation_hub_node.dir/src/transportation_hub_node.cpp.o] 错误 1
+[0.204s] gmake[1]: *** [CMakeFiles/Makefile2:592：CMakeFiles/transportation_hub_node.dir/all] 错误 2
+[0.204s] gmake[1]: *** 正在等待未完成的任务....
+[0.222s] running egg_info
+[0.223s] writing transportation_hub.egg-info/PKG-INFO
+[0.223s] writing dependency_links to transportation_hub.egg-info/dependency_links.txt
+[0.223s] writing top-level names to transportation_hub.egg-info/top_level.txt
+[0.224s] reading manifest file 'transportation_hub.egg-info/SOURCES.txt'
+[0.224s] writing manifest file 'transportation_hub.egg-info/SOURCES.txt'
+[0.242s] [ 26%] Built target ament_cmake_python_build_transportation_hub_egg
+[0.265s] [ 30%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/transportation_hub/srv/judge__type_support.cpp.o[0m
+[0.265s] [ 30%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/transportation_hub/msg/overall_info__type_support.cpp.o[0m
+[0.265s] [ 32%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_c.dir/rosidl_typesupport_c/transportation_hub/srv/judge__type_support.cpp.o[0m
+[0.266s] [ 34%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/transportation_hub/msg/road_info__type_support.cpp.o[0m
+[0.267s] [ 36%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_c.dir/rosidl_typesupport_c/transportation_hub/msg/road_info__type_support.cpp.o[0m
+[0.267s] [ 38%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_c.dir/rosidl_typesupport_c/transportation_hub/msg/overall_info__type_support.cpp.o[0m
+[0.282s] [ 40%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/transportation_hub/msg/detail/overall_info__type_support.cpp.o[0m
+[0.282s] [ 42%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/transportation_hub/srv/detail/judge__type_support.cpp.o[0m
+[0.283s] [ 44%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/transportation_hub/msg/detail/road_info__type_support.cpp.o[0m
+[0.292s] [ 46%] [32m[1mLinking CXX shared library libtransportation_hub__rosidl_typesupport_c.so[0m
+[0.294s] [ 48%] [32mBuilding C object CMakeFiles/transportation_hub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/transportation_hub/msg/detail/road_info__type_support.c.o[0m
+[0.294s] [ 51%] [32mBuilding C object CMakeFiles/transportation_hub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/transportation_hub/srv/detail/judge__type_support.c.o[0m
+[0.294s] [ 53%] [32mBuilding C object CMakeFiles/transportation_hub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/transportation_hub/msg/detail/overall_info__type_support.c.o[0m
+[0.294s] [ 55%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/transportation_hub/msg/detail/road_info__type_support_c.cpp.o[0m
+[0.295s] [ 57%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/transportation_hub/srv/detail/judge__type_support_c.cpp.o[0m
+[0.295s] [ 59%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/transportation_hub/msg/detail/overall_info__type_support_c.cpp.o[0m
+[0.324s] [ 61%] [32m[1mLinking C shared library libtransportation_hub__rosidl_typesupport_introspection_c.so[0m
+[0.327s] [ 61%] Built target transportation_hub__rosidl_typesupport_c
+[0.330s] [ 63%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/srv/detail/dds_fastrtps/judge__type_support.cpp.o[0m
+[0.330s] [ 65%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/overall_info__type_support.cpp.o[0m
+[0.331s] [ 67%] [32mBuilding CXX object CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/road_info__type_support.cpp.o[0m
+[0.346s] [ 67%] Built target transportation_hub__rosidl_typesupport_introspection_c
+[0.513s] [ 69%] [32m[1mLinking CXX shared library libtransportation_hub__rosidl_typesupport_fastrtps_c.so[0m
+[0.516s] [ 71%] [32m[1mLinking CXX shared library libtransportation_hub__rosidl_typesupport_cpp.so[0m
+[0.545s] [ 71%] Built target transportation_hub__rosidl_typesupport_cpp
+[0.567s] [ 71%] Built target transportation_hub__rosidl_typesupport_fastrtps_c
+[0.615s] [ 73%] [32m[1mLinking CXX shared library libtransportation_hub__rosidl_typesupport_introspection_cpp.so[0m
+[0.618s] [ 75%] [32m[1mLinking CXX shared library libtransportation_hub__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.667s] [ 75%] Built target transportation_hub__rosidl_typesupport_introspection_cpp
+[0.673s] [ 75%] Built target transportation_hub__rosidl_typesupport_fastrtps_cpp
+[0.673s] gmake: *** [Makefile:146：all] 错误 2
+[0.676s] Invoked command in '/home/sfx233/rm1/src/transportation_hub/build/transportation_hub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sfx233/rm1/src/transportation_hub/build/transportation_hub -- -j24 -l24

@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/sfx233/rm1/src/transportation_hub/build/transportation_hub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sfx233/rm1/src/transportation_hub -DCMAKE_INSTALL_PREFIX=/home/sfx233/rm1/src/transportation_hub/install/transportation_hub
+[0.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.132s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.153s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.160s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.201s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.202s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.335s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.335s]   By not providing "Findinterfaces.cmake" in CMAKE_MODULE_PATH this project
+[0.335s]   has asked CMake to find a package configuration file provided by
+[0.336s]   "interfaces", but CMake did not find one.
+[0.336s] 
+[0.336s]   Could not find a package configuration file provided by "interfaces" with
+[0.336s]   any of the following names:
+[0.336s] 
+[0.336s]     interfacesConfig.cmake
+[0.336s]     interfaces-config.cmake
+[0.336s] 
+[0.336s]   Add the installation prefix of "interfaces" to CMAKE_PREFIX_PATH or set
+[0.336s]   "interfaces_DIR" to a directory containing one of the above files.  If
+[0.336s]   "interfaces" provides a separate development package or SDK, be sure it has
+[0.336s]   been installed.
+[0.336s] 
+[0.336s] [0m
+[0.336s] -- Configuring incomplete, errors occurred!
+[0.336s] See also "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/CMakeFiles/CMakeOutput.log".
+[0.340s] Invoked command in '/home/sfx233/rm1/src/transportation_hub/build/transportation_hub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sfx233/rm1/src/transportation_hub -DCMAKE_INSTALL_PREFIX=/home/sfx233/rm1/src/transportation_hub/install/transportation_hub

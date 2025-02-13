@@ -1,0 +1,4 @@
+source;share/transportation_hub/local_setup.bash
+source;share/transportation_hub/local_setup.dsv
+source;share/transportation_hub/local_setup.sh
+source;share/transportation_hub/local_setup.zsh

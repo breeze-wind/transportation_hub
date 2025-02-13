@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/overall_info__type_support.cpp.o"
+  "CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/overall_info__type_support.cpp.o.d"
+  "CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/road_info__type_support.cpp.o"
+  "CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/road_info__type_support.cpp.o.d"
+  "CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/srv/detail/dds_fastrtps/judge__type_support.cpp.o"
+  "CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/transportation_hub/srv/detail/dds_fastrtps/judge__type_support.cpp.o.d"
+  "libtransportation_hub__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libtransportation_hub__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/overall_info__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/dds_fastrtps/road_info__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/overall_info__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/transportation_hub/msg/detail/road_info__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/transportation_hub/srv/detail/dds_fastrtps/judge__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/transportation_hub/srv/detail/judge__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/transportation_hub__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

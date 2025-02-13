@@ -1,0 +1,4 @@
+# ninja log v6
+3	414	1739423743323868145	build.ninja	78bbe14a2a5fd624
+2	6486	1739381238368135114	CMakeFiles/transportation_hub_node.dir/src/transportation_hub_node.cpp.o	cc7027aefd17f8d1
+6486	6783	1739381244852125520	transportation_hub_node	e6e65bd34c303079

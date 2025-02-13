@@ -1,0 +1,30 @@
+{
+  "package_name": "transportation_hub",
+  "output_dir": "/home/sfx233/rm1/src/transportation_hub/cmake-build-debug/rosidl_generator_cpp/transportation_hub",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/sfx233/rm1/src/transportation_hub/cmake-build-debug/rosidl_adapter/transportation_hub:msg/RoadInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/cmake-build-debug/rosidl_adapter/transportation_hub:msg/OverallInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/cmake-build-debug/rosidl_adapter/transportation_hub:srv/Judge.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/sfx233/rm1/src/transportation_hub/cmake-build-debug/rosidl_adapter/transportation_hub/msg/RoadInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/cmake-build-debug/rosidl_adapter/transportation_hub/msg/OverallInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/cmake-build-debug/rosidl_adapter/transportation_hub/srv/Judge.idl"
+  ]
+}

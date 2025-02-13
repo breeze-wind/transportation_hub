@@ -1,0 +1,23 @@
+{
+  "package_name": "transportation_hub",
+  "output_dir": "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/rosidl_typesupport_introspection_cpp/transportation_hub",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/rosidl_adapter/transportation_hub:msg/RoadInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/rosidl_adapter/transportation_hub:msg/OverallInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/rosidl_adapter/transportation_hub:srv/Judge.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/rosidl_adapter/transportation_hub/msg/RoadInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/rosidl_adapter/transportation_hub/msg/OverallInfo.idl",
+    "/home/sfx233/rm1/src/transportation_hub/build/transportation_hub/rosidl_adapter/transportation_hub/srv/Judge.idl"
+  ]
+}
